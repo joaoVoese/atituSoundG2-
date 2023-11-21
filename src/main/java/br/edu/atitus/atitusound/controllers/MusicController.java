@@ -8,6 +8,7 @@ import br.edu.atitus.atitusound.entities.ArtistEntity;
 import br.edu.atitus.atitusound.entities.MusicEntity;
 import br.edu.atitus.atitusound.services.GenericService;
 import br.edu.atitus.atitusound.services.MusicService;
+
 @RestController
 @RequestMapping("/musics")
 public class MusicController extends GenericController<MusicEntity, MusicDTO>{
