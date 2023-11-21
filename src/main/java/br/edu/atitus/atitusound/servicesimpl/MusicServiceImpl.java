@@ -6,6 +6,7 @@ import br.edu.atitus.atitusound.entities.MusicEntity;
 import br.edu.atitus.atitusound.repositories.GenericRepository;
 import br.edu.atitus.atitusound.repositories.MusicRepository;
 import br.edu.atitus.atitusound.services.MusicService;
+
 @Service
 public class MusicServiceImpl implements MusicService{
 
